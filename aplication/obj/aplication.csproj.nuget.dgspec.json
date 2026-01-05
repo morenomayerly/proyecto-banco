@@ -1,23 +1,113 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mayerly.alvarez\\source\\repos\\Banco\\aplication\\aplication.csproj": {}
+    "C:\\Proyectos-Kiai\\practica-dotnet\\Mayerly\\aplication\\aplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mayerly.alvarez\\source\\repos\\Banco\\aplication\\aplication.csproj": {
+    "C:\\Proyectos-Kiai\\practica-dotnet\\Mayerly\\aplication\\aplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mayerly.alvarez\\source\\repos\\Banco\\aplication\\aplication.csproj",
+        "projectUniqueName": "C:\\Proyectos-Kiai\\practica-dotnet\\Mayerly\\aplication\\aplication.csproj",
         "projectName": "aplication",
-        "projectPath": "C:\\Users\\mayerly.alvarez\\source\\repos\\Banco\\aplication\\aplication.csproj",
-        "packagesPath": "C:\\Users\\mayerly.alvarez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mayerly.alvarez\\source\\repos\\Banco\\aplication\\obj\\",
+        "projectPath": "C:\\Proyectos-Kiai\\practica-dotnet\\Mayerly\\aplication\\aplication.csproj",
+        "packagesPath": "C:\\Users\\maritza.ruiz\\.nuget\\packages\\",
+        "outputPath": "C:\\Proyectos-Kiai\\practica-dotnet\\Mayerly\\aplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mayerly.alvarez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\maritza.ruiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Proyectos-Kiai\\practica-dotnet\\Mayerly\\domain\\Domain.csproj": {
+                "projectPath": "C:\\Proyectos-Kiai\\practica-dotnet\\Mayerly\\domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[14.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.416/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Proyectos-Kiai\\practica-dotnet\\Mayerly\\domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Proyectos-Kiai\\practica-dotnet\\Mayerly\\domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\Proyectos-Kiai\\practica-dotnet\\Mayerly\\domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\maritza.ruiz\\.nuget\\packages\\",
+        "outputPath": "C:\\Proyectos-Kiai\\practica-dotnet\\Mayerly\\domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\maritza.ruiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -43,24 +133,19 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "10.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+            "AutoMapper": {
               "target": "Package",
               "version": "[12.0.1, )"
             },
-            "FluentValidation": {
+            "MediatR.Contracts": {
               "target": "Package",
-              "version": "[12.1.1, )"
-            },
-            "FluentValidation.DependencyInjectionExtensions": {
-              "target": "Package",
-              "version": "[12.1.1, )"
+              "version": "[2.0.1, )"
             }
           },
           "imports": [
@@ -79,7 +164,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.416/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

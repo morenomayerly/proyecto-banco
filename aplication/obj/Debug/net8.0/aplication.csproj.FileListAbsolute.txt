@@ -1,0 +1,16 @@
+C:\Proyectos-Kiai\practica-dotnet\Mayerly\aplication\obj\Debug\net8.0\aplication.csproj.AssemblyReference.cache
+C:\Proyectos-Kiai\practica-dotnet\Mayerly\aplication\obj\Debug\net8.0\aplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyectos-Kiai\practica-dotnet\Mayerly\aplication\obj\Debug\net8.0\aplication.AssemblyInfoInputs.cache
+C:\Proyectos-Kiai\practica-dotnet\Mayerly\aplication\obj\Debug\net8.0\aplication.AssemblyInfo.cs
+C:\Proyectos-Kiai\practica-dotnet\Mayerly\aplication\obj\Debug\net8.0\aplication.csproj.CoreCompileInputs.cache
+C:\Proyectos-Kiai\practica-dotnet\Mayerly\aplication\obj\Debug\net8.0\aplication.sourcelink.json
+C:\Proyectos-Kiai\practica-dotnet\Mayerly\aplication\bin\Debug\net8.0\aplication.deps.json
+C:\Proyectos-Kiai\practica-dotnet\Mayerly\aplication\bin\Debug\net8.0\aplication.dll
+C:\Proyectos-Kiai\practica-dotnet\Mayerly\aplication\bin\Debug\net8.0\aplication.pdb
+C:\Proyectos-Kiai\practica-dotnet\Mayerly\aplication\bin\Debug\net8.0\Domain.dll
+C:\Proyectos-Kiai\practica-dotnet\Mayerly\aplication\bin\Debug\net8.0\Domain.pdb
+C:\Proyectos-Kiai\practica-dotnet\Mayerly\aplication\obj\Debug\net8.0\aplication.csproj.Up2Date
+C:\Proyectos-Kiai\practica-dotnet\Mayerly\aplication\obj\Debug\net8.0\aplication.dll
+C:\Proyectos-Kiai\practica-dotnet\Mayerly\aplication\obj\Debug\net8.0\refint\aplication.dll
+C:\Proyectos-Kiai\practica-dotnet\Mayerly\aplication\obj\Debug\net8.0\aplication.pdb
+C:\Proyectos-Kiai\practica-dotnet\Mayerly\aplication\obj\Debug\net8.0\ref\aplication.dll

@@ -1,7 +1,7 @@
 ﻿using System.Reflection;
 using FluentValidation;
+using MediatR;
 using Microsoft.Extensions.DependencyInjection;
-
 
 namespace aplication
 {
@@ -11,7 +11,7 @@ namespace aplication
 		{
 			services.AddAutoMapper(Assembly.GetExecutingAssembly());
 			services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
-            object value = services.AddMediatR(static cfg => cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
-        }
+			services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
+		}
 	}
 }

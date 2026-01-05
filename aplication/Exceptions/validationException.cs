@@ -7,21 +7,21 @@ using FluentValidation.Results;
 
 namespace aplication.Exceptions
 {
-    public class validationException : Exception
+    public class ValidationException : Exception
     {
-        public validationException() : base("se han producido uno o mas errores de validacion")
+        public ValidationException() : base("Se han producido uno o más errores de validación")
         {
-            errors = new List<string>();
-
+            Errors = new List<string>();
         }
-        public List<string> errors { get; }
-        public validationException(IEnumerable<ValidationFailure> failures) : this()
+        
+        public List<string> Errors { get; }
+        
+        public ValidationException(IEnumerable<ValidationFailure> failures) : this()
         {
             foreach (var item in failures)
             {
-                errors.Add(item.ErrorMessage);
+                Errors.Add(item.ErrorMessage);
             }
         }
     }
 }
-        
